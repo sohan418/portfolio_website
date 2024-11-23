@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="main-container">
       <div className="top-nav-container" id="home">
         <div className="top-heading">
           <h1>Hi! Welcome to My Portfolio</h1>
@@ -235,6 +235,7 @@ const Home = () => {
           </div>
         </div>
       </Carousel>
+
     </div>
   );
 };
