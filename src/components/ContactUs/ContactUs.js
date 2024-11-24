@@ -60,7 +60,7 @@ const ContactUs = () => {
     };
     
     return (
-        <div className="main-container">
+        <div className="contract-main-container">
         <div className="contact-container">
             <div className="contact-top-heading">
                 <h2 style={{ color: "black" }}>Contact Us</h2>

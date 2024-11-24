@@ -8,6 +8,11 @@ body{
 }
 .main-container{
 margin-bottom: 50px;
+
+}
+a {
+  font-family: fantasy;
+  font-size: 16px;
 }
 .top-nav-container{
  display: flex;

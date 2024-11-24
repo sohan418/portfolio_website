@@ -3,6 +3,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 const Home = () => {
   const responsive = {
@@ -235,7 +236,7 @@ const Home = () => {
           </div>
         </div>
       </Carousel>
-
+      <ContactUs/>
     </div>
   );
 };

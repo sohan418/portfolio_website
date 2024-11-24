@@ -24,6 +24,10 @@ form {
     display: flex;
     flex-direction: column;
 }
+.contract-main-container{
+    /* background-image: linear-gradient(to right, rgb(52, 52, 52) , rgb(36, 36, 21)); */
+    background-size: cover;
+}
 
  
 input, textarea {
