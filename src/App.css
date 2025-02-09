@@ -50,9 +50,10 @@ h2{
 }
 
 .top-box-container img{
-  border-radius: 50%;  
+  border-radius: 20%;  
   border-color: #7fa9ca;
   border: 3px solid #286bd0;
+  box-shadow: 2px 1px 14px 8px #286bd0;
 }
 .skill-list img{
   border-radius: 40px;  
@@ -110,7 +111,7 @@ h2{
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
-  
+  box-shadow: 2px 1px 14px 8px #286bd0;
 }
 .child-box-container{
   height: 300px;
@@ -122,6 +123,7 @@ h2{
   margin: 30px;
   border: 2px solid #4d4753;
   border-top-color: #7fa9ca;
+  box-shadow: 2px 1px 14px 8px #286bd0;
 }
 
 .parent-box-container :hover{
@@ -149,6 +151,7 @@ h2{
  padding: 20px;
  gap: 20px;
 background: white;
+box-shadow: 2px 1px 14px 8px #286bd0;
 }
 .child-skill-container{
   display: flex;
@@ -182,6 +185,7 @@ margin: 30px;
 height: 300px;
 border: 2px solid #4d4753;
 border-top-color: #7fa9ca;
+box-shadow: 2px 1px 14px 8px #286bd0;
 }
 .project-box-container{
 display: flex;
@@ -192,6 +196,7 @@ margin: 30px;
 border: 2px solid #4d4753;
 border-top-color: #7fa9ca;
 gap: 10px;
+box-shadow: 2px 1px 14px 8px #286bd0;
 }
 .project-box-container img{
   max-width: 400px;

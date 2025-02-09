@@ -8,7 +8,7 @@
     color: white;
     /* background-color: rgb(232,232,239); */
     border-radius: 28px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow:2px 1px 14px 2px #286bd0
 }
 .input-container {
     display: flex;

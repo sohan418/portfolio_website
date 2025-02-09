@@ -4,7 +4,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
-import "./home.css"
 
 const Home = () => {
   const responsive = {
@@ -33,8 +32,8 @@ const Home = () => {
           <img
             src={`${process.env.PUBLIC_URL}/assets/my-image.png.jpg`}
             alt="User with laptop"
-            height={350}
-            width={350}
+            height={300}
+            width={310}
           />
         </div>
         <div className="top-heading">
