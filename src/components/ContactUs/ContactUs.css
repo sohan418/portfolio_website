@@ -3,7 +3,7 @@
 
 .contact-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding: 20px;
     color: white;
     /* background-color: rgb(232,232,239); */
@@ -55,3 +55,10 @@ justify-content: center;
 flex-direction: column;
 
 }
+@media (min-width: 300px){
+    .contact-container {
+        margin: 17px;
+        padding: 23px;
+    }
+  
+  }
