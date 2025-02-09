@@ -33,8 +33,8 @@ const Home = () => {
           <img
             src={`${process.env.PUBLIC_URL}/assets/my-image.png.jpg`}
             alt="User with laptop"
-            height={400}
-            width={400}
+            height={350}
+            width={350}
           />
         </div>
         <div className="top-heading">
