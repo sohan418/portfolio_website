@@ -55,24 +55,17 @@ justify-content: center;
 flex-direction: column;
 
 }
-@media (min-width: 300px){
+@media (min-width: 320px){
     .contact-container {
-        margin: 17px;
-        padding: 23px;
+        margin: 17px!important;
+        padding: 23px!important;
     }
   
   }
   @media (min-width: 600px){
     .contact-container {
-        margin: 17px;
-        padding: 23px;
+        margin: 0 auto !important;
+    padding: 20px !important;
     }
   
-  }
-
-  @media (min-width: 800px){
-    .contact-container {
-        margin: 17px;
-        padding: 23px;
-    } 
   }
