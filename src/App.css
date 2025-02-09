@@ -2,6 +2,7 @@ body{
   background:  #282C32;
   margin:0px;
   padding: 0px;
+  font-family: math;
 }
 .App {
   text-align: center;
@@ -11,7 +12,7 @@ margin-bottom: 50px;
 
 }
 a {
-  font-family: fantasy;
+  font-family:'Times New Roman', Times, serif;
   font-size: 16px;
 }
 .top-nav-container{
@@ -49,8 +50,9 @@ h2{
 }
 
 .top-box-container img{
-  border-radius: 40px;  
-  max-width: 300px;
+  border-radius: 50%;  
+  border-color: #7fa9ca;
+  border: 3px solid #286bd0;
 }
 .skill-list img{
   border-radius: 40px;  

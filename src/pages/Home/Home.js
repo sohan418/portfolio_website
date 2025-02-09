@@ -4,6 +4,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
+import "./home.css"
 
 const Home = () => {
   const responsive = {
@@ -28,6 +29,14 @@ const Home = () => {
   return (
     <div className="main-container">
       <div className="top-nav-container" id="home">
+      <div className="top-box-container">
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/my-image.png.jpg`}
+            alt="User with laptop"
+            height={400}
+            width={400}
+          />
+        </div>
         <div className="top-heading">
           <h1>Hi! Welcome to My Portfolio</h1>
           <p>
@@ -42,13 +51,7 @@ const Home = () => {
             <button className="btn-2">Contact Us</button>
           </div>
         </div>
-        <div className="top-box-container">
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/images/user-laptop-1.png`}
-            alt="User with laptop"
-            height={300}
-          />
-        </div>
+        
       </div>
 
       <div className="about-heading" id="aboutus">

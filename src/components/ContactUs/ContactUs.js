@@ -63,7 +63,7 @@ const ContactUs = () => {
         <div className="contract-main-container">
         <div className="contact-container">
             <div className="contact-top-heading">
-                <h2 style={{ color: "black" }}>Contact Us</h2>
+                <h2 >Contact Us</h2>
             </div>
             <form onSubmit={handleSubmit}>
                 <div className="input-container">
