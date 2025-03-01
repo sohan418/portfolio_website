@@ -1,11 +1,11 @@
 // src/pages/Home.js
 
-import React from "react";
+import { useState, useEffect } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import "./home.css"
-
+import { ArrowUp } from 'lucide-react';
 const Home = () => {
   const responsive = {
     superLargeDesktop: {
@@ -25,8 +25,30 @@ const Home = () => {
       items: 1,
     },
   };
+    const [isVisible, setIsVisible] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        setIsVisible(window.scrollY > 20);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+  
+    const scrollToTop = () => {
+      const scrollStep = -window.scrollY / 50;
+      const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep);
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 10);
+    };
 
   return (
+    <>
     <div className="main-container">
       <div className="top-nav-container fade-in" id="home">
        
@@ -233,7 +255,18 @@ const Home = () => {
         </div>
       </Carousel>
       <ContactUs/>
+      
     </div>
+    {isVisible && (
+        <button
+          onClick={scrollToTop}
+          className="fixed-button"
+        >
+          <ArrowUp size={40} />
+        </button>
+      )}
+    </>
+
   );
 };
 

@@ -97,3 +97,23 @@ body {
     }
   }
   
+  .fixed-button {
+    position: fixed;
+    bottom: 1.25rem; /* Tailwind's bottom-5 */
+    right: 1.25rem; /* Tailwind's right-5 */
+    z-index: 50; /* Tailwind's z-50 */
+    color: white; /* Tailwind's text-white */
+    background-color: #dc2626; /* Tailwind's bg-red-600 */
+    width: 4rem; /* Tailwind's w-12 */
+    height: 4rem; /* Tailwind's h-12 */
+    border-radius: 50px; /* Tailwind's rounded-full */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fixed-button:hover {
+    background-color: #374151; /* Tailwind's hover:bg-gray-700 */
+  }
+  
