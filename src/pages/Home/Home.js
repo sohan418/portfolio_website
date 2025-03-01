@@ -4,7 +4,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
-import "./Home.css"
+import "./home.css"
 
 const Home = () => {
   const responsive = {
