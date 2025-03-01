@@ -24,3 +24,9 @@
     background-color: transparent;
     border-bottom: 1px solid #22c151;
 }
+nav{
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+.navbar-inverse {
+  border:none !important;
+}

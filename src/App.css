@@ -181,7 +181,7 @@ p {
 .about-heading p{
   color:#a9b9d1;
   font-size:20px;
-  max-width: 50%;
+  max-width: 50% !important;
 }
 
 .parent-skill-container{
