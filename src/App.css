@@ -48,7 +48,7 @@ h2{
 p {
   color: #a9b9d1;
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .top-box-container img{
@@ -234,6 +234,16 @@ gap: 10px;
 }
 @media (min-width: 600px){
   .child-box-container {max-width:  100% !important;}
+  .about-heading p{
+    color:#a9b9d1;
+    font-size:20px;
+    max-width: 100%;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 600px){
+  .top-box-container img{max-width:  100% !important;}
 }
 
 @media (min-width: 600px){

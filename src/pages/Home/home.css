@@ -40,10 +40,11 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
-    font-size: 4.6rem;
-    border-right: 2px solid rgb(237, 236, 236);
+    font-size: 4.3rem;
+    /* border-right: 2px solid rgb(237, 236, 236); */
     animation: slideText 3s steps(30, end) forwards;
     width: auto;
+    text-align: center;
   }
 
   @keyframes slideText {
