@@ -112,6 +112,21 @@ p {
   justify-content: center;
   align-items: center;
 }
+.btn-5{
+  border-radius: 20px;
+  background-color: #053a8a;
+  height: 40px;
+  width: 200px;
+  color: white;
+  /* border-color: #286bd0; */
+  font-weight: 900;
+  text-decoration: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .btn-3{
   border-radius: 20px;
   background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);

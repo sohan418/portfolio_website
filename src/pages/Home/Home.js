@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import "./home.css"
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp,CloudDownload } from 'lucide-react';
 const Home = () => {
   const responsive = {
     superLargeDesktop: {
@@ -47,6 +47,15 @@ const Home = () => {
       }, 10);
     };
 
+    const handleFileDownload = () => {
+      const fileUrl = "/assets/pdf/sohan_singh_bisht.pdf"; // No ../public — it's served from root
+      const link = document.createElement('a');
+      link.href = fileUrl;
+      link.setAttribute('download', fileUrl.split('/').pop()); 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  };
   return (
     <>
     <div className="main-container">
@@ -76,6 +85,10 @@ const Home = () => {
           and back-end technologies. I'm always eager to learn new technologies
           and apply them to create innovative solutions.
         </p>
+        <div className="button-container">
+            <button className="btn-5"  onClick={handleFileDownload}> <CloudDownload size={30}/>  <span>Download Resume</span>
+            </button>
+          </div>
       </div>
 
       <Carousel responsive={responsive}>
