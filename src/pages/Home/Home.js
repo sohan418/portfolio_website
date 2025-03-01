@@ -4,6 +4,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ContactUs from "../../components/ContactUs/ContactUs";
+import "./Home.css"
 
 const Home = () => {
   const responsive = {
@@ -27,17 +28,10 @@ const Home = () => {
 
   return (
     <div className="main-container">
-      <div className="top-nav-container" id="home">
-      <div className="top-box-container">
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/my-image.png.jpg`}
-            alt="User with laptop"
-            height={300}
-            width={310}
-          />
-        </div>
+      <div className="top-nav-container fade-in" id="home">
+       
         <div className="top-heading">
-          <h1>Hi! Welcome to My Portfolio</h1>
+          <h1 className="heading-text">Hi! Welcome to My Portfolio</h1>
           <p>
             I'm Sohan Singh Bisht, a passionate Software developer with
             expertise in building dynamic, user-friendly websites and web
@@ -53,7 +47,7 @@ const Home = () => {
         
       </div>
 
-      <div className="about-heading" id="aboutus">
+      <div className="about-heading fade-in" id="aboutus">
         <h1>About Me</h1>
         <p>
           I'm a results-oriented developer with a strong foundation in front-end
@@ -88,7 +82,7 @@ const Home = () => {
         </div>
       </Carousel>
 
-      <div className="child-skill-container" id="skill">
+      <div className="child-skill-container fade-in" id="skill">
         <h1>Technical Skills</h1>
       </div>
       <Carousel responsive={responsive}>
@@ -203,7 +197,7 @@ const Home = () => {
         </div>
       </Carousel>
 
-      <div className="child-skill-container" id="project">
+      <div className="child-skill-container fade-in" id="project">
         <h1>Projects</h1>
       </div>
       <Carousel responsive={responsive}>
