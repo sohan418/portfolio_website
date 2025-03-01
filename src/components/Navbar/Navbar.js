@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css'; // Import the CSS file
 import { Link } from 'react-router-dom';
-import { Folder } from 'lucide-react';
+import { Folder,Home,UsersRound,Lightbulb } from 'lucide-react';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Track menu toggle state
 
@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
         <div className={`collapse navbar-collapse ${isMenuOpen ? 'in' : ''}`} id="myNavbar">
           <ul className="nav navbar-nav">
-            <li><Link to="/" className="active" onClick={closeMenu}>Home</Link></li>
-            <li><a href="#aboutus" onClick={closeMenu}>About Us</a></li>
+            <li><Link to="/" className="active" onClick={closeMenu}  style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}>  <Home size={15}/>Home</Link></li>
+            <li><a href="#aboutus" onClick={closeMenu}  style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}><UsersRound size={15}/> About Us</a></li>
             <li><a href="#project" onClick={closeMenu} style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}> <Folder size={15}/><span>Projects</span></a></li>
-            <li><a href="#skill" onClick={closeMenu}>Skills</a></li>
+            <li><a href="#skill" onClick={closeMenu} style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}> <Lightbulb size={15}/><span>Skills</span></a></li>
           </ul>
           <ul className="nav navbar-nav navbar-right">
             <li>
