@@ -101,7 +101,7 @@ body {
     position: fixed;
     bottom: 1.25rem; /* Tailwind's bottom-5 */
     right: 1.25rem; /* Tailwind's right-5 */
-    z-index: 50; /* Tailwind's z-50 */
+    z-index: 10000; /* Tailwind's z-50 */
     color: white; /* Tailwind's text-white */
     background-color: #dc2626; /* Tailwind's bg-red-600 */
     width: 4rem; /* Tailwind's w-12 */
