@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ContactUs.css";
+// import "./ContactUs.css";
 import BeatLoader from "react-spinners/BeatLoader";
 
 const ContactUs = () => {

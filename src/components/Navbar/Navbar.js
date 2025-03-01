@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className={`collapse navbar-collapse ${isMenuOpen ? 'in' : ''}`} id="myNavbar">
           <ul className="nav navbar-nav">
             <li><Link to="/" className="active" onClick={closeMenu}  style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}>  <Home size={15}/>Home</Link></li>
-            <li><a href="#aboutus" onClick={closeMenu}  style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}><UsersRound size={15}/> About Us</a></li>
+            <li><a href="#aboutus" onClick={closeMenu}  style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}><UsersRound size={15}/> About Me</a></li>
             <li><a href="#project" onClick={closeMenu} style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}> <Folder size={15}/><span>Projects</span></a></li>
             <li><a href="#skill" onClick={closeMenu} style={{display: "flex",justifyContent: "center",alignItems: "center",gap: "5px"}}> <Lightbulb size={15}/><span>Skills</span></a></li>
           </ul>
