@@ -106,9 +106,7 @@ const Home = () => {
       <div className="about-heading fade-in" id="aboutus">
         <h1>About Me</h1>
         <p>
-          I'm a results-oriented developer with a strong foundation in front-end
-          and back-end technologies. I'm always eager to learn new technologies
-          and apply them to create innovative solutions.
+        I’m a results-oriented developer with a strong foundation in both front-end and back-end technologies. I’m always eager to learn new skills and apply them to build innovative and efficient solutions. Let’s create something amazing together! 🚀 
         </p>
         <div className="button-container">
             <button className="btn-5"  onClick={handleFileDownload}> <CloudDownload size={30}/>  <span>Download My Resume</span>
