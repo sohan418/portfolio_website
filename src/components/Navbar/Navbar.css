@@ -18,6 +18,9 @@
     color: #fff;
     z-index: 1000;
   }
+  .navbar-inverse .navbar-nav>li>a {
+    color: #fffefe;
+}
   
   .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;

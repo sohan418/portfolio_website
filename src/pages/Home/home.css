@@ -10,7 +10,7 @@ body {
   }
   .skill-list:hover {
     background: #081f38;
-    transform: scale(1.02);
+    transform: scale(1.04);
     box-shadow: none;
     box-shadow: 0px 1px 0px 3px #286bd0;
     transition: transform 0.4s ease-in-out, background 1.3s ease-in-out;
@@ -18,19 +18,20 @@ body {
 
   .child-box-container:hover {
     background: #081f38;
-    transform: scale(1.02);
+    transform: scale(1.04);
     box-shadow: none;
     box-shadow: 0px 1px 0px 3px #286bd0;
     transition: transform 0.4s ease-in-out, background 1.3s ease-in-out;
   }
  .project-box-container:hover{
     background: #081f38;
-    transform: scale(1.02);
+    transform: scale(1.04);
     box-shadow: none;
     /* box-shadow: 0px 1px 0px 3px #286bd0; */
     transition: transform 0.4s ease-in-out, background 1.3s ease-in-out;
   }
-  .about-heading, .child-skill-container, .project-box-container {
+  
+  .about-heading, .child-skill-container{
     opacity: 0;
     transform: translateY(50px);
     animation: fadeIn 4s ease-out forwards;
