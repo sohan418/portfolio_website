@@ -64,7 +64,7 @@ const Home = () => {
   };
   const phrases = [
     "I'm Sohan Singh Bisht",
-    "A passionate Python Developer",
+    "A passionate Python Full Stack Developer",
     "I build dynamic user-friendly websites",
     "Web Applications"
   ];
