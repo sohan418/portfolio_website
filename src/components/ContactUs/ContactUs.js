@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./ContactUs.css";
+import "./ContactUs.css";
 import BeatLoader from "react-spinners/BeatLoader";
 
 const ContactUs = () => {
@@ -32,7 +32,7 @@ const ContactUs = () => {
         console.log("Form Submitted:", formPayload);
     
         try {
-            const response = await fetch('/submit', {
+            const response = await fetch('https://portfolio-backend-6xzp.onrender.com/submit', {
                 method: 'POST',
                 body: formPayload, // Using FormData object
             });
